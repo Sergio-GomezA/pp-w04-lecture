@@ -30,7 +30,7 @@ expected_bins = [4, 4, 4, 3]
 # good for testing
 
 bins = first_fit(list_items, bin_capacity)
-# print(bins)
+print(bins)
 # assert bins == expected_bins, 'Doesn\'t match expected result'
 
 # sort them first
